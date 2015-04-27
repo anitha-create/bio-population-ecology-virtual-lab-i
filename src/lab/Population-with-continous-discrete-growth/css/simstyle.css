@@ -1,0 +1,190 @@
+/*
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+*/
+
+
+#speciesCanvas {
+	border:#eabeb4 solid 1px;
+	background-color:#f8f8f8;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin:10px 0px 0px 15px;
+ 	width: 96%;
+  	height: 87%;
+}
+
+.textField {
+	width: 48%;
+	float: right;
+	font-size: 12px;
+}
+
+#statImg,#dataImg,#worksheetImg {
+	width: 100%;
+  	height: 100%;
+}
+
+#stat_txt {
+	width: 100%;
+	height: 100%;
+	margin-top: -19%;
+	font-size: 92%;
+	text-align: center;
+	margin-left: 10%;
+	cursor:pointer;
+}
+
+#data_txt {
+	width: 100%;
+	height: 100%;
+	margin-top: -19%;
+	font-size: 92%;
+	text-align: center;
+	margin-left: 10%;
+	cursor:pointer;
+}
+
+#worksheet_txt {
+	width: 100%;
+	height: 100%;
+	margin-top: -19%;
+	font-size: 92%;
+	text-align: center;
+	margin-left: 10%;
+	cursor:pointer;
+}
+
+#Statistics {
+	position: absolute;
+	width: 26%;
+	height: 77%;
+	top:10%;
+	left:10%;
+	cursor: pointer;
+	cursor: hand;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #6e6e6e;
+	text-align:center;
+	background-size:contain;
+	background-position:center;
+}
+
+#dataPlots {
+	position: absolute;
+	width: 26%;
+	height: 77%;
+	top:10%;
+	left:39%;
+	cursor: pointer;
+	cursor: hand;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #6e6e6e;
+	text-align:center;
+	background-size:contain;
+	background-position:center;
+}
+
+#workSheets {
+	position: absolute;
+	width: 26%;
+	height: 77%;
+	top:10%;
+	left:67%;
+	cursor: pointer;
+	cursor: hand;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #6e6e6e;
+	text-align:center;
+	background-size:contain;
+	background-position:center;
+}
+
+.submitBtns {
+	width:43%;
+	margin:10px 0px 0px 8px;
+	float: left;
+}
+
+#goStep {
+	width: 37%;
+	float: right;
+	font-size: 12px;
+	position: absolute;
+	top: 41%;
+	left: 48%;
+}
+
+#statLabel {
+	position:absolute;
+	background-color:#fef9f9;
+	margin:27px 0px 0px 35px;
+	border:#eabeb4 solid 1px; 
+	z-index:1; 
+	width: 45%;
+	height: 11%;
+	opacity: 0.7;
+	filter:alpha(opacity=60);
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+.Label {
+	text-align:left !important;
+	font-size:159%;
+	font-weight:bold 80%;
+	margin:10px 0px 0px 5px;
+}
+
+#triButton {
+	position: absolute;
+	top: 92%;
+	width: 85%;
+	height: 7%;
+	margin-left: 7%;
+}
+
+#workSheet {
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	padding: 28%;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	background-color: white;
+}
+
+#workParagraph {
+	position:absolute;
+	margin:0px 0px 0px 40px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	background-color: white;
+}
+
+#tinyGraphArea {
+	display:none;
+	position:absolute;
+	width: 96.1%;
+	height: 87%;
+	top: 1.2%;
+	left: 1.7%;
+	padding: 0px;
+	background-color: #f8f8f8;
+	border: #eabeb4 solid 1px;
+	opacity: 1;
+}
