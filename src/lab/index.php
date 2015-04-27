@@ -6,8 +6,8 @@ header('Cache-Control: post-check=0, pre-check=0', false);
 header('Pragma: no-cache');
 header("Modified-by: Amrita VL ",true);
 /////////
-include('../lib/vl_config.php');
-include('../lib/templateConfig.php');
+include('vl_config.php');
+include('templateConfig.php');
 ini_set('display_errors', 0);
 //get the parent url
 $parentUrl= $_SERVER['HTTP_REFERER'];
@@ -104,7 +104,7 @@ $sim_id=$exp_name;
 
 $sim_file=$sim_id.'/html5.php';
 
-$temp_dir='../lib/template/';
+$temp_dir='template/';
 
 ////////////
 ////////////////
@@ -117,7 +117,7 @@ $copy_name="Copyright &copy; Amrita University 2009 - ". date("Y");
 ////////
 ///////////////
 
-include("../lib/functions.php");
+include("functions.php");
 /////
 getHeader();
 ///////////
