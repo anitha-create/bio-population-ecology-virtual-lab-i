@@ -46,6 +46,6 @@
 <?php
 getWorksheet();
 ?>
-<script type="text/javascript" src="js/resp.js"></script>
+<script type="text/javascript" src="../lib/js/resp.js"></script>
 </body>
 </html>
